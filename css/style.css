@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    perspective: 700px;
+}
+section{
+    position: relative;
+}
+.main .img {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.div1 .div2 .div3 .div4 .div5 .div6{
+    position: relative;
+    transform-style: preserve-3d;
+}
+.div1 {
+position: absolute;
+animation-name: change ;
+background: url(../images/hare-2135472__340.jpg);
+background-size: cover;
+width: 140px;
+height: 90px;
+border-radius: 20px;
+animation-duration: 3s ;
+animation-fill-mode: forwards;
+animation-timing-function: ease;
+margin-top: 7px;
+margin-left: 25px;
+}
+@keyframes change {
+    0% { left: 25px;  }
+   30%{background-image: url(../images/lop-eared-314881__340.jpg);}
+    50%{background-image: url(../images/dwarf-rabbit-4827394__340.jpg);}
+    75%{background-image: url(../images/chinchilla-rabbit-6231924__340.jpg);}
+    100% {  left: 1165px;  }
+}
+.div2 {
+    background: url(../images/vegetable-2485062__340.jpg);
+background-size: cover;
+width: 140px;
+height: 90px;
+border-radius: 20px;
+
+    position: absolute;
+animation-name: section ;
+animation-duration: 3s ;
+animation-delay:  3s ;
+margin-top: 114px;
+left: 88%;
+animation-direction: reverse;
+animation-fill-mode: forwards;
+animation-timing-function: ease;
+    }
+    @keyframes section{
+        0% {  left: 30px;  top: 0; }
+        30%{background-image: url(../images/cucumbers-2446470__340.jpg);}
+        50%{background-image: url(../images/peppermint-4487398__340.jpg);}
+        75%{background-image: url(../images/parsley-261040__340.jpg);}
+        100% {   left: 1165px;   }
+    
+    }
+
+.div3 {
+    background: url(../images/monkey-7723380__340.jpg);
+background-size: cover;
+width: 140px;
+height: 90px;
+border-radius: 20px;
+margin-left: 25px;
+        position: absolute;
+        animation-name: class;
+        animation-duration: 3s ;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+        margin-top: 224px;
+        animation-delay:  6s ;
+        }
+        @keyframes class {
+            0% {  left: 25px;   }
+            30%{background-image: url(../images/yellow-breast-capuchin-1464023__340.jpg);}
+    50%{background-image: url(../images/barbary-macaque-6724677__340.jpg);}
+    75%{background-image: url(../images/barbary-ape-3538277__340.jpg);}
+            100% { left: 1165px;   }
+        }
+    
+        .div4 {
+            background: url(../images/bananas-1642706__340.jpg);
+background-size: cover;
+width: 140px;
+height:90px;
+border-radius: 20px;
+
+            position: absolute;
+        animation-name: normall ;
+        animation-duration: 3s ;
+        animation-delay:  3s ;
+        margin-top: 331px;
+        left: 88%;
+        animation-direction: reverse;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+        animation-delay:  9s ;
+            }
+            @keyframes normall {
+                0% {  left: 30px;  top: 0; }
+                30%{background-image: url(../images/beet-4470670__340.jpg);}
+                50%{background-image: url(../images/grass-3432393__340.jpg);}
+                75%{background-image: url(../images/nature-3808354__340.jpg);}
+                100% {  left: 1165px; }
+            
+            }
+            .div5 {
+                background: url(../images/giraffe-6271050__340.jpg);
+background-size: cover;
+width: 140px;
+height: 90px;
+border-radius: 20px;
+margin-left: 25px;
+                position: absolute;
+                animation-name: like ;
+                animation-duration: 3s ;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease;
+                margin-top:440px;
+                animation-delay:  12s ;
+                }
+                @keyframes like {
+                    0% {  left: 25px;   }
+                    30%{background-image: url(../images/giraffe-1029795__340.jpg);}
+    50%{background-image: url(../images/giraffe-2064520__340.jpg);}
+    75%{background-image: url(../images/south-africa-927280__340.jpg);}
+                    100% { left: 1165px;  }
+                }
+                .div6{
+                    background: url(../images/nature-3808354__340.jpg);
+background-size: cover;
+width: 140px;
+height: 90px;
+border-radius: 20px;
+
+                    position: absolute;
+                animation-name: position ;
+                animation-duration: 3s ;
+                animation-delay:  3s ;
+                margin-top: 546px;
+                left: 88%;
+                animation-direction: reverse;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease;
+                animation-delay:  15s ;
+                    }
+                    @keyframes position{
+                        0% {  left:30px;  top: 0; }
+                        30%{background-image: url(../images/leaves-8113__340.jpg);}
+                        50%{background-image: url(../images/acacia-19345__340.jpg);}
+                        75%{background-image: url(../images/grass-3432393__340.jpg);}
+                        100% {  left: 1165px;   }
+                    
+                    }
+        
